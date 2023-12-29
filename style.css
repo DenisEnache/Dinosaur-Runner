@@ -1,0 +1,142 @@
+#page-background {
+    background-color: rgb(79, 79, 77);
+    margin: 0;
+    height: 100vh;
+}
+
+#game-background {
+    width: 60vw;
+    height: 50vh;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin: auto;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(246, 246, 246);
+    background-position: center center;
+    z-index: 0;
+}
+
+#title {
+    position: absolute; 
+    top: 17%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#start-button {
+    font-size: 35px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+#score-style {
+    font-size: 25px;
+    text-align: left;
+    color: black;
+    position: absolute;
+    top: 0%;
+    right: 3%;
+    caret-color: transparent;
+    z-index: 3;
+}
+
+.dinosaur {
+    width: 65px; 
+    height: 70px; 
+    background-image: url('https://trex-runner.com/img/day.png'); 
+    background-size: contain;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0%;
+    left: 2%;
+    z-index: 2;
+    caret-color: transparent;
+}
+
+.cactus-style1 {
+    width: 47px; 
+    height: 80px; 
+    background-image: url('https://pngimg.com/uploads/cactus/cactus_PNG23616.png'); 
+    background-size: contain;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0%;
+    z-index: 2;
+    caret-color: transparent;
+}
+
+.cactus-style2 {
+    width: 35px; 
+    height: 60px; 
+    background-image: url('https://pngimg.com/uploads/cactus/cactus_PNG23617.png'); 
+    background-size: contain;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0%;
+    z-index: 2;
+    caret-color: transparent;
+}
+
+.cloud-style {
+    width: 170px; 
+    height: 90px; 
+    background-image: url('https://pngimg.com/uploads/cloud/cloud_PNG16.png'); 
+    background-size: cover;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0%;
+    z-index: 1;
+    caret-color: transparent;
+}
+
+.game-over {
+    width: 200px; 
+    height: 200px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('https://pngimg.com/uploads/game_over/game_over_PNG19.png');
+    background-size: contain;
+    background-color: transparent;
+    z-index: 3;
+    caret-color: transparent;
+}
+
+.restart-message {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+
+@keyframes jump {
+    0%, 100% {bottom: 0;}
+    50% {bottom: 170px;} 
+}
+  
+.jump {
+    animation: jump 0.8s; 
+}
+
+
+
+
+
+
+  
+
+
+
+
