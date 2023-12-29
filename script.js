@@ -37,7 +37,7 @@ document.addEventListener('keydown', function(event) {
       dinosaur.classList.add('jump');
       setTimeout(function() {
         dinosaur.classList.remove('jump');
-      }, 500);
+      }, 800);
     }
     if(!gameActive && event.code == 'Enter') {
         restart();
